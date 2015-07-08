@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumSongAPI", "AlbumSongAPI\AlbumSongAPI.csproj", "{345CBC41-87F0-4CF4-9DE4-ABE7DBC3D9F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{17B84267-E5E0-491D-83A4-1A9678309946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SongAPI.DTO", "SongAPI.DTO\SongAPI.DTO.csproj", "{9044588A-5166-45C6-9FB5-8D3630176D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SongAPI.Domain", "SongAPI.Domain\SongAPI.Domain.csproj", "{A3C188CA-751C-4E0C-8D17-E4FED076FEDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SongAPI.Interfaces", "SongAPI.Interfaces\SongAPI.Interfaces.csproj", "{F47D54F8-0061-445E-B203-0DF9DB6A679E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Provider", "Provider", "{FFFBD204-C4A8-43BE-B2A2-6E1BC65B9D08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{6B28E390-F216-4948-A81F-E6E9483C37B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SongAPI.Provider", "SongAPI.Provider\SongAPI.Provider.csproj", "{724BCC73-42EC-47C9-B5E9-5975EA7591B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SongAPI.Repository", "SongAPI.Repository\SongAPI.Repository.csproj", "{03FA3250-597F-481C-A7EB-83F1E28C4D3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DFDB943A-ADB6-4F4F-B868-2C70632A8B4A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalDlls", "ExternalDlls", "{07491E48-4D05-4670-BA38-65B9A9E69463}"
+	ProjectSection(SolutionItems) = preProject
+		SongAPI.Provider\bin\Debug\AutoMapper.dll = SongAPI.Provider\bin\Debug\AutoMapper.dll
+		SongAPI.Provider\bin\Debug\AutoMapper.Net4.dll = SongAPI.Provider\bin\Debug\AutoMapper.Net4.dll
+		SongAPI.Provider\bin\Debug\AutoMapper.xml = SongAPI.Provider\bin\Debug\AutoMapper.xml
+		SongAPI.Repository\bin\Debug\Dapper.dll = SongAPI.Repository\bin\Debug\Dapper.dll
+		SongAPI.Repository\bin\Debug\Dapper.xml = SongAPI.Repository\bin\Debug\Dapper.xml
+		SongAPI.Repository\bin\Debug\log4net.dll = SongAPI.Repository\bin\Debug\log4net.dll
+		SongAPI.Repository\bin\Debug\log4net.xml = SongAPI.Repository\bin\Debug\log4net.xml
+		SongAPI.Repository\bin\Debug\ServiceStack.Common.dll = SongAPI.Repository\bin\Debug\ServiceStack.Common.dll
+		SongAPI.Repository\bin\Debug\ServiceStack.Common.xml = SongAPI.Repository\bin\Debug\ServiceStack.Common.xml
+		SongAPI.Repository\bin\Debug\ServiceStack.dll = SongAPI.Repository\bin\Debug\ServiceStack.dll
+		SongAPI.Repository\bin\Debug\ServiceStack.Interfaces.dll = SongAPI.Repository\bin\Debug\ServiceStack.Interfaces.dll
+		SongAPI.Repository\bin\Debug\ServiceStack.Interfaces.xml = SongAPI.Repository\bin\Debug\ServiceStack.Interfaces.xml
+		SongAPI.Repository\bin\Debug\ServiceStack.Logging.Log4Net.dll = SongAPI.Repository\bin\Debug\ServiceStack.Logging.Log4Net.dll
+		SongAPI.Repository\bin\Debug\ServiceStack.OrmLite.dll = SongAPI.Repository\bin\Debug\ServiceStack.OrmLite.dll
+		SongAPI.Repository\bin\Debug\ServiceStack.OrmLite.SqlServer.dll = SongAPI.Repository\bin\Debug\ServiceStack.OrmLite.SqlServer.dll
+		SongAPI.Repository\bin\Debug\ServiceStack.Redis.dll = SongAPI.Repository\bin\Debug\ServiceStack.Redis.dll
+		SongAPI.Repository\bin\Debug\ServiceStack.Redis.xml = SongAPI.Repository\bin\Debug\ServiceStack.Redis.xml
+		SongAPI.Repository\bin\Debug\ServiceStack.ServiceInterface.dll = SongAPI.Repository\bin\Debug\ServiceStack.ServiceInterface.dll
+		SongAPI.Repository\bin\Debug\ServiceStack.Text.dll = SongAPI.Repository\bin\Debug\ServiceStack.Text.dll
+		SongAPI.Repository\bin\Debug\ServiceStack.Text.xml = SongAPI.Repository\bin\Debug\ServiceStack.Text.xml
+		SongAPI.Repository\bin\Debug\ServiceStack.xml = SongAPI.Repository\bin\Debug\ServiceStack.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{345CBC41-87F0-4CF4-9DE4-ABE7DBC3D9F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345CBC41-87F0-4CF4-9DE4-ABE7DBC3D9F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345CBC41-87F0-4CF4-9DE4-ABE7DBC3D9F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345CBC41-87F0-4CF4-9DE4-ABE7DBC3D9F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9044588A-5166-45C6-9FB5-8D3630176D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9044588A-5166-45C6-9FB5-8D3630176D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9044588A-5166-45C6-9FB5-8D3630176D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9044588A-5166-45C6-9FB5-8D3630176D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C188CA-751C-4E0C-8D17-E4FED076FEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C188CA-751C-4E0C-8D17-E4FED076FEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C188CA-751C-4E0C-8D17-E4FED076FEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C188CA-751C-4E0C-8D17-E4FED076FEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47D54F8-0061-445E-B203-0DF9DB6A679E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47D54F8-0061-445E-B203-0DF9DB6A679E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47D54F8-0061-445E-B203-0DF9DB6A679E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47D54F8-0061-445E-B203-0DF9DB6A679E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724BCC73-42EC-47C9-B5E9-5975EA7591B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724BCC73-42EC-47C9-B5E9-5975EA7591B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724BCC73-42EC-47C9-B5E9-5975EA7591B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724BCC73-42EC-47C9-B5E9-5975EA7591B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03FA3250-597F-481C-A7EB-83F1E28C4D3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03FA3250-597F-481C-A7EB-83F1E28C4D3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03FA3250-597F-481C-A7EB-83F1E28C4D3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03FA3250-597F-481C-A7EB-83F1E28C4D3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9044588A-5166-45C6-9FB5-8D3630176D87} = {17B84267-E5E0-491D-83A4-1A9678309946}
+		{A3C188CA-751C-4E0C-8D17-E4FED076FEDD} = {17B84267-E5E0-491D-83A4-1A9678309946}
+		{F47D54F8-0061-445E-B203-0DF9DB6A679E} = {17B84267-E5E0-491D-83A4-1A9678309946}
+		{724BCC73-42EC-47C9-B5E9-5975EA7591B1} = {FFFBD204-C4A8-43BE-B2A2-6E1BC65B9D08}
+		{03FA3250-597F-481C-A7EB-83F1E28C4D3E} = {6B28E390-F216-4948-A81F-E6E9483C37B3}
+	EndGlobalSection
+EndGlobal

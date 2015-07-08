@@ -1,0 +1,11 @@
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.DTO\bin\Debug\SongAPI.DTO.dll
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.DTO\bin\Debug\SongAPI.DTO.pdb
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.DTO\bin\Debug\ServiceStack.Common.dll
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.DTO\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.DTO\bin\Debug\ServiceStack.Text.dll
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.DTO\bin\Debug\ServiceStack.Common.xml
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.DTO\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.DTO\bin\Debug\ServiceStack.Text.xml
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.DTO\obj\Debug\SongAPI.DTO.dll
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.DTO\obj\Debug\SongAPI.DTO.pdb
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.DTO\obj\Debug\SongAPI.DTO.csprojResolveAssemblyReference.cache

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Repository\SongAPI.Repository" Label="SongAPI.Repository" Category="Project" />
+    <Node Id="Dapper 1.42" Label="Dapper 1.42" Category="Package" />
+    <Node Id="log4net 2.0.3" Label="log4net 2.0.3" Category="Package" />
+    <Node Id="ServiceStack 3.9.70" Label="ServiceStack 3.9.70" Category="Package" />
+    <Node Id="ServiceStack.Common 3.9.71" Label="ServiceStack.Common 3.9.71" Category="Package" />
+    <Node Id="ServiceStack.Logging.Log4Net 3.9.70" Label="ServiceStack.Logging.Log4Net 3.9.70" Category="Package" />
+    <Node Id="ServiceStack.OrmLite.SqlServer 3.9.71" Label="ServiceStack.OrmLite.SqlServer 3.9.71" Category="Package" />
+    <Node Id="ServiceStack.Redis 3.9.71" Label="ServiceStack.Redis 3.9.71" Category="Package" />
+    <Node Id="ServiceStack.Text 3.9.71" Label="ServiceStack.Text 3.9.71" Category="Package" />
+    <Node Id="Provider\SongAPI.Provider" Label="SongAPI.Provider" Category="Project" />
+    <Node Id="AutoMapper 3.3.1" Label="AutoMapper 3.3.1" Category="Package" />
+    <Node Id="log4net 2.0.3" Label="log4net 2.0.3" Category="Package" />
+    <Node Id="ServiceStack.Common 3.9.71" Label="ServiceStack.Common 3.9.71" Category="Package" />
+    <Node Id="ServiceStack.Logging.Log4Net 3.9.70" Label="ServiceStack.Logging.Log4Net 3.9.70" Category="Package" />
+    <Node Id="ServiceStack.Text 3.9.71" Label="ServiceStack.Text 3.9.71" Category="Package" />
+    <Node Id="Common\SongAPI.Domain" Label="SongAPI.Domain" Category="Project" />
+    <Node Id="log4net 2.0.3" Label="log4net 2.0.3" Category="Package" />
+    <Node Id="ServiceStack.Common 3.9.71" Label="ServiceStack.Common 3.9.71" Category="Package" />
+    <Node Id="ServiceStack.Logging.Log4Net 3.9.70" Label="ServiceStack.Logging.Log4Net 3.9.70" Category="Package" />
+    <Node Id="ServiceStack.Text 3.9.71" Label="ServiceStack.Text 3.9.71" Category="Package" />
+    <Node Id="Common\SongAPI.DTO" Label="SongAPI.DTO" Category="Project" />
+    <Node Id="ServiceStack.Common 3.9.71" Label="ServiceStack.Common 3.9.71" Category="Package" />
+    <Node Id="ServiceStack.Text 3.9.71" Label="ServiceStack.Text 3.9.71" Category="Package" />
+    <Node Id="AlbumSongAPI" Label="AlbumSongAPI" Category="Project" />
+    <Node Id="log4net 2.0.3" Label="log4net 2.0.3" Category="Package" />
+    <Node Id="ServiceStack 3.9.70" Label="ServiceStack 3.9.70" Category="Package" />
+    <Node Id="ServiceStack.Common 3.9.71" Label="ServiceStack.Common 3.9.71" Category="Package" />
+    <Node Id="ServiceStack.Logging.Log4Net 3.9.70" Label="ServiceStack.Logging.Log4Net 3.9.70" Category="Package" />
+    <Node Id="ServiceStack.OrmLite.SqlServer 3.9.71" Label="ServiceStack.OrmLite.SqlServer 3.9.71" Category="Package" />
+    <Node Id="ServiceStack.Redis 3.9.71" Label="ServiceStack.Redis 3.9.71" Category="Package" />
+    <Node Id="ServiceStack.Text 3.9.71" Label="ServiceStack.Text 3.9.71" Category="Package" />
+  </Nodes>
+  <Links>
+    <Link Source="ServiceStack 3.9.70" Target="ServiceStack.Common 3.9.71" Category="Package Dependency" />
+    <Link Source="ServiceStack 3.9.70" Target="ServiceStack.Redis 3.9.71" Category="Package Dependency" />
+    <Link Source="ServiceStack 3.9.70" Target="ServiceStack.OrmLite.SqlServer 3.9.71" Category="Package Dependency" />
+    <Link Source="ServiceStack.Common 3.9.71" Target="ServiceStack.Text 3.9.71" Category="Package Dependency" />
+    <Link Source="ServiceStack.Logging.Log4Net 3.9.70" Target="log4net 2.0.3" Category="Package Dependency" />
+    <Link Source="ServiceStack.Logging.Log4Net 3.9.70" Target="ServiceStack.Common 3.9.71" Category="Package Dependency" />
+    <Link Source="ServiceStack.OrmLite.SqlServer 3.9.71" Target="ServiceStack.Common 3.9.71" Category="Package Dependency" />
+    <Link Source="ServiceStack.Redis 3.9.71" Target="ServiceStack.Common 3.9.71" Category="Package Dependency" />
+    <Link Source="Repository\SongAPI.Repository" Target="Dapper 1.42" Category="Installed Package" />
+    <Link Source="Repository\SongAPI.Repository" Target="ServiceStack 3.9.70" Category="Installed Package" />
+    <Link Source="Repository\SongAPI.Repository" Target="ServiceStack.Logging.Log4Net 3.9.70" Category="Installed Package" />
+    <Link Source="ServiceStack.Common 3.9.71" Target="ServiceStack.Text 3.9.71" Category="Package Dependency" />
+    <Link Source="ServiceStack.Logging.Log4Net 3.9.70" Target="log4net 2.0.3" Category="Package Dependency" />
+    <Link Source="ServiceStack.Logging.Log4Net 3.9.70" Target="ServiceStack.Common 3.9.71" Category="Package Dependency" />
+    <Link Source="Provider\SongAPI.Provider" Target="AutoMapper 3.3.1" Category="Installed Package" />
+    <Link Source="Provider\SongAPI.Provider" Target="ServiceStack.Logging.Log4Net 3.9.70" Category="Installed Package" />
+    <Link Source="ServiceStack.Common 3.9.71" Target="ServiceStack.Text 3.9.71" Category="Package Dependency" />
+    <Link Source="ServiceStack.Logging.Log4Net 3.9.70" Target="log4net 2.0.3" Category="Package Dependency" />
+    <Link Source="ServiceStack.Logging.Log4Net 3.9.70" Target="ServiceStack.Common 3.9.71" Category="Package Dependency" />
+    <Link Source="Common\SongAPI.Domain" Target="ServiceStack.Logging.Log4Net 3.9.70" Category="Installed Package" />
+    <Link Source="ServiceStack.Common 3.9.71" Target="ServiceStack.Text 3.9.71" Category="Package Dependency" />
+    <Link Source="Common\SongAPI.DTO" Target="ServiceStack.Common 3.9.71" Category="Installed Package" />
+    <Link Source="ServiceStack 3.9.70" Target="ServiceStack.Common 3.9.71" Category="Package Dependency" />
+    <Link Source="ServiceStack 3.9.70" Target="ServiceStack.Redis 3.9.71" Category="Package Dependency" />
+    <Link Source="ServiceStack 3.9.70" Target="ServiceStack.OrmLite.SqlServer 3.9.71" Category="Package Dependency" />
+    <Link Source="ServiceStack.Common 3.9.71" Target="ServiceStack.Text 3.9.71" Category="Package Dependency" />
+    <Link Source="ServiceStack.Logging.Log4Net 3.9.70" Target="log4net 2.0.3" Category="Package Dependency" />
+    <Link Source="ServiceStack.Logging.Log4Net 3.9.70" Target="ServiceStack.Common 3.9.71" Category="Package Dependency" />
+    <Link Source="ServiceStack.OrmLite.SqlServer 3.9.71" Target="ServiceStack.Common 3.9.71" Category="Package Dependency" />
+    <Link Source="ServiceStack.Redis 3.9.71" Target="ServiceStack.Common 3.9.71" Category="Package Dependency" />
+    <Link Source="AlbumSongAPI" Target="ServiceStack 3.9.70" Category="Installed Package" />
+    <Link Source="AlbumSongAPI" Target="ServiceStack.Logging.Log4Net 3.9.70" Category="Installed Package" />
+  </Links>
+  <Categories>
+    <Category Id="Project" />
+    <Category Id="Package" />
+  </Categories>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Project" ValueLabel="True">
+      <Condition Expression="HasCategory('Project')" />
+      <Setter Property="Background" Value="Blue" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Package Dependency" ValueLabel="True">
+      <Condition Expression="HasCategory('Package Dependency')" />
+      <Setter Property="Background" Value="Yellow" />
+    </Style>
+  </Styles>
+</DirectedGraph>

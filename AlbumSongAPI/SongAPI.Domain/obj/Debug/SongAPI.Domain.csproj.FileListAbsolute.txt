@@ -1,0 +1,15 @@
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.Domain\bin\Debug\SongAPI.Domain.dll.config
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.Domain\bin\Debug\SongAPI.Domain.dll
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.Domain\bin\Debug\SongAPI.Domain.pdb
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.Domain\bin\Debug\log4net.dll
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.Domain\bin\Debug\ServiceStack.Common.dll
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.Domain\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.Domain\bin\Debug\ServiceStack.Logging.Log4Net.dll
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.Domain\bin\Debug\ServiceStack.Text.dll
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.Domain\bin\Debug\log4net.xml
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.Domain\bin\Debug\ServiceStack.Common.xml
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.Domain\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.Domain\bin\Debug\ServiceStack.Text.xml
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.Domain\obj\Debug\SongAPI.Domain.dll
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.Domain\obj\Debug\SongAPI.Domain.pdb
+C:\Users\Sujana\Documents\Interview\Theranos\AlbumSongAPI\SongAPI.Domain\obj\Debug\SongAPI.Domain.csprojResolveAssemblyReference.cache
